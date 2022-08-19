@@ -7,19 +7,20 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This is a basic Docker compose setup with a volume that watches for changes in
+          the src folder.
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://docs.docker.com/storage/volumes/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Using Docker Volumes
         </a>
       </header>
     </div>
-  );
+  )
 }
 
 export default App;
